@@ -239,13 +239,13 @@ public class Jmail {
     	 //enable startttls
     	sm.props.put("mail.smtp.starttls.enable", "true");
     	 // 寄信者的信箱帳密
-    	 sm.setNamePass(" zxc10806@gmail.com","a12345678");
+    	 sm.setNamePass(" largeteam8@gmail.com","largeeight");
          
          // 主旨(可中文)
          sm.setSubject("TMD");
          
          // 寄信人
-         sm.setFrom("zxc10806@gmail.com");
+         sm.setFrom("largeteam8@gmail.com");
          
          // 收件人
          sm.setTo("zxc10806@yahoo.com.tw");
@@ -260,7 +260,7 @@ public class Jmail {
          String content = new String();
          content+="哈囉！！<br>";
          content+="你好:)<br>";
-         content+="我是邱仲毅<br>";
+         content+="<br>";
          
          // 信件內容(打中文，寄出後為問號)
          //String nn = new String(content);
